@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #00ff99;
+    font: 10pt verdana;
+}
+
+#site-container {
+    width: 960px;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #ffffcc;
+}
+
+#header {
+    width: 900px;
+    height: 130px;
+    background: url(../image/image.png);
+    margin: 5px auto;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+#header a {
+    font: 28pt 'Matura MT Script Capitals';
+    text-decoration: none;
+    color: #669900;
+}
+
+#header p {
+    font: 20pt 'Brush Script Std';
+    color: #669900;
+}
+
+#menu-content {
+    width: 950px;
+    height: auto;
+    margin: 5 auto;
+}
+
+#menu {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-left: 5px;
+    ;
+}
+
+.judul_1 {
+    display: block;
+    height: 40px;
+    background: #669900;
+    font: 20pt "Script MT Bold";
+    color: #fff;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li a {
+    display: block;
+    height: 30px;
+    background: #99cc66;
+    font: 16pt "Script MT Bold";
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    padding-left: 20px;
+}
+
+#menu li a:hover {
+    background: #666633;
+    color: #fff;
+}
+
+#content {
+    float: right;
+    width: 610px;
+    height: auto;
+    background: #99cc66;
+    padding: 15px;
+
+}
+
+#content p {
+    margin-top: 20px;
+}
+
+#foot {
+    width: 950px;
+    height: 70px;
+    margin: 5px auto;
+    border: 1px solid #000;
+}
+
+.floating {
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+}
+
+.judul_2 {
+    display: block;
+    border-bottom: 2px solid #000;
+    font: 26pt "Script MT Bold";
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.img {
+    width: 250px;
+    height: 200px;
+    border: 5px solid #fff;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+#footer {
+    width: 950px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #669900;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    color: #fff;
+}
